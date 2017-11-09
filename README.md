@@ -13,7 +13,7 @@ npm install
 npm install -g npx
 ```
 
-### Seminar [(ppt)](./seminar.pptx) [(pdf)](./seminar.pdf)
+### Seminar [(pptx)](./talk/slides.pptx) [(pdf)](./talk/slides.pdf)
 - Intro to JavaScript
 - Developments in JavaScript
 - Array Functions
