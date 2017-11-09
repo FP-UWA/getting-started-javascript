@@ -6,8 +6,9 @@
 - Install git client: <https://git-scm.com/downloads>
 
 ### Setup
-```
+```bash
 git clone https://github.com/fp-uwa/getting-started-javascript.git
+cd getting-started-javascript
 npm install
 npm install -g npx
 ```
