@@ -19,28 +19,8 @@ var paints = [
 
 const property = "shape";
 
-/*
-function pluck(array, property) {
-  return array.map(function(element) {
-    return element[property];
-  });
-}
-*/
+let result;
 
-paints.map((el, ind, array));
-
-const new_array = (array => array.map(el => el.color))();
-
-var new_array = [];
-for (var i = 0; i < array.length; i++) {
-  var el = array[i];
-  var new_el = el.color;
-  new_array.push(new_el);
-}
-
-const pluck = (array, property) =>
-  array.map(({ [property]: plucked }) => plucked);
-
-var result = pluck(paints, property);
+// Your time to shine.
 
 console.log(result);
