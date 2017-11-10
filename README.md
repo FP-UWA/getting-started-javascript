@@ -28,15 +28,13 @@ npm install -g npx
 - make_tree: filter, forEach [(problem)](./problems/make_tree.js) [(solution)](./solutions/make_tree.js)
 
 ### Useful Resources
-- [Fun Fun Function](https://youtube.com/watch?v=BMUiFMZr7vk&amp;t)
-- [ES6 Javascript Guide](https://www.rallycoding.com/courses/es6-javascript-the-complete-developers-guide/)
+- [Fun Fun Functional (Youtube)](https://youtube.com/watch?v=BMUiFMZr7vk&amp;t)
+- [ES6 Javascript Guide (Udemy)](https://www.rallycoding.com/courses/es6-javascript-the-complete-developers-guide/)
 
 ### Next Steps
-#### Dedicated Libraries: 
-  - Ramda, Underscore, Lodash
-  - Largely superseded by ES6+
-#### Web Development:
-  - Views: React HOC (Composable)
-  - Store: Redux, ImmutableJS
-  - Actions: Redux Observable, Sagas
+- Functions: Ramda, Underscore, Lodash
+- Typing: TypeScript, Flow, Reason
+- Views: React Higher Order Components (HOC)
+- Store: Redux, ImmutableJS
+- Actions: Redux Observable, Redux Saga
 
