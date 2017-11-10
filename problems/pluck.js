@@ -12,10 +12,35 @@
     Output: ["red", "blue"]
 */
 
-const paints = [{ color: "red" }, { color: "blue" }];
+var paints = [
+  { shape: "square", color: "red" },
+  { shape: "triangle", color: "blue" }
+];
 
-let result;
+const property = "shape";
 
-// your time to shine.
+/*
+function pluck(array, property) {
+  return array.map(function(element) {
+    return element[property];
+  });
+}
+*/
+
+paints.map((el, ind, array));
+
+const new_array = (array => array.map(el => el.color))();
+
+var new_array = [];
+for (var i = 0; i < array.length; i++) {
+  var el = array[i];
+  var new_el = el.color;
+  new_array.push(new_el);
+}
+
+const pluck = (array, property) =>
+  array.map(({ [property]: plucked }) => plucked);
+
+var result = pluck(paints, property);
 
 console.log(result);
