@@ -14,6 +14,9 @@
   "author": "",
   "license": "ISC",
   "babel": {
-    "presets": ["env", "stage-2"]
+    "presets": [
+      "env",
+      "stage-2"
+    ]
   }
 }
